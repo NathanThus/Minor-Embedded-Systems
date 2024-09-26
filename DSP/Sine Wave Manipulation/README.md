@@ -9,9 +9,20 @@ How: Using complex number multiplication, to create a sine wave.
 ## Code
 
 `Complex.hpp` & `Complex.cpp` - The complex number code files.
+
 `main.cpp` - Contains the code to actually use the complex numbers, as well as some fileIO for use in MATLAB.
+
 `Graph.m` - Basic MATLAB code for importing the data.
-`Output.txt` - The output data from running `Main`
+
+`Output.txt` - The output data from running `main.cpp`
+
+## Compilation & Execution
+
+Using GCC:
+`gcc *cpp -o text.exe`
+
+Running:
+`./test.exe`
 
 ## Evidence
 
