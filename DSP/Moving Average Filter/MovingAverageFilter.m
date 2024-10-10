@@ -10,7 +10,7 @@ y1 = FIRMovingAverage(y1, var, buf);
 
 y2 = IIRMovingAverage(y2, var, buf);
 
-tiledlayout(1,3);
+tiledlayout(1,2);
 nexttile
 hold on
 plot(y1, "r-")
@@ -20,8 +20,9 @@ legend("FIR", "IIR")
 hold off
 
 nexttile
-stem(FIRMovingAverage(y1,impulse,buf))
-title("FIR Filter Response")
-nexttile
-stem(IIRMovingAverage(y2,impulse,buf))
-title("IIR Filter Response")
+hold on
+stem(FIRMovingAverage(y1,impulse,buf),"r-")
+stem(IIRMovingAverage(y2,impulse,buf),"b-")
+title("Filter Response")
+legend("FIR","IIR")
+hold off
