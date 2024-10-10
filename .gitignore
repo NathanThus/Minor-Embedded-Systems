@@ -1,3 +1,4 @@
 ﻿*.zip
 **/.vscode
 *.exe
+*.asv
