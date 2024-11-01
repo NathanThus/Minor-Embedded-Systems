@@ -1,13 +1,9 @@
-function y1 = FIRMovingAverage(y1, var, buf)
-for ind = 1:1:100
-    if ind <= 10
-        y1(1,ind) = var(1,ind);
-    else
-        for bufInd = ind-10:1:ind
-        buf = buf + var(1,bufInd);
+function y1 = FIRMovingAverage(y1, arr)
+    for ind = 1:1:100
+        if (ind == 1)
+            y1 = arr;
+        else
+        y1(1,ind) = 0.5 * arr(1,ind) + 0.5 * arr(1,ind-1);
         end
-    buf = buf / 10;
-    y1(1,ind) = buf;
     end
-end
 end
