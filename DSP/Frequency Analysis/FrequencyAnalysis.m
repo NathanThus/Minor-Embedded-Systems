@@ -23,7 +23,7 @@ hold on
 plot(sinF1, "b-");
 plot(sinF2, "r-");
 plot(sinF3, "g-");
-legend("Compiled Sine Wave", "Base Wave 1", "Base Wave 2");
+legend("Base Wave 1", "Base Wave 2","Compiled Sine Wave");
 title("Sine Wave generated with Complex Numbers")
 hold off
 
