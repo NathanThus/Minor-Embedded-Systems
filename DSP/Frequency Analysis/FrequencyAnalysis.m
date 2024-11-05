@@ -3,9 +3,11 @@ clf
 tiledlayout(2,2);
 
 % Constants
-Fs = 128;
-T = 1/Fs;
-L = 128;
+Fs = 128; % Frequency Samples
+T = 1/Fs; % Sample Rate
+L = 128; % Length of the signal
+n = 0:L-1; % All indexes
+N = n * Fs / (L-1); % Plot for samples
 
 totalSine = x128 + x64;
 
@@ -25,7 +27,7 @@ hold on
 title("Fourier Transform of a Sine Wave")
 xlabel("Frequency (Hz)")
 ylabel("FFT(X)")
-plot(Fs/L*(0:L-1),abs(fourierSine),"LineWidth",3);
+plot(N,abs(fourierSine),"LineWidth",3);
 hold off
 
 MAret = x64;
@@ -55,5 +57,5 @@ hold on
 title("Fourier Transform of the Moving Average of a Sine Wave")
 xlabel("Frequency (Hz)")
 ylabel("FFT(X)")
-plot(Fs/L*(0:L-1), abs(fourierMA),"LineWidth",3)
+plot(N,abs(fourierMA),"LineWidth",3)
 hold off
