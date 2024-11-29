@@ -1,0 +1,3 @@
+[submodule "Personal/keysight-visa"]
+	path = Personal/keysight-visa
+	url = https://github.com/NathanThus/keysight-visa
