@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "KiCad")(type "KiCad")(uri "C:/Users/Nathan/Downloads/RKJXV122400R/KiCad.pretty")(options "")(descr ""))
+  (lib (name "RKJXV122400R")(type "KiCad")(uri "C:/Users/Nathan/Downloads/RKJXV122400R.pretty")(options "")(descr ""))
+)
