@@ -4,6 +4,9 @@ This is a range of products, relating to my personal project (Creating my own ga
 
 [Small Project](/Personal/Small%20Project/) - Any small project will go there, in image form. These will either be breadboard projects or soldering work.
 
-[keysight-visa] - A side project for reading data off an oscilloscope, via the VISA protocol. Written in C++.
+## Keysight VISACOM Project
+
+[keysight-visa](/Personal/keysight-visa/) - A side project for reading data off an oscilloscope, via the VISA protocol. Written in C++.
+[Project Documentation](./Keysight-Visa.md)
 
 <!-- [Terrain Generation](./Terrain%20Generation/) - An attempt at mathematically approaching Terrain Generation in video games, using MATLAB to simulate a surface. -->
