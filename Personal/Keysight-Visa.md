@@ -178,9 +178,9 @@ This recreated the figure exactly as it was on the oscilloscope, meaning that I 
 
 The data & figure in question:
 
-[The data acquired from the oscillocsope](./keysight-visa/example/data.csv)
+[The data acquired from the oscillocsope](https://github.com/NathanThus/keysight-visa/tree/main/example/data.csv)
 
-![A Figure displaying a sine wave, obtained from a wave generator on an oscilloscope.](./keysight-visa/example/figure.png)
+![A Figure displaying a sine wave, obtained from a wave generator on an oscilloscope.](https://github.com/NathanThus/keysight-visa/tree/main/example/figure.png)
 
 ## Advantages over USB stick
 
