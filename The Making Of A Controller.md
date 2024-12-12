@@ -52,3 +52,21 @@ For the bumpers, I acquired the vertical buttons as mentioned above. Otherwise, 
 **_Triggers_**
 
 Originally I thought the triggers on controllers were made using some fancy pressure-sensitive switches. Turns out, it's far easier. Due to the potential of continuous wear and tear, switches and potentiometers have made way for HAL effect sensors. These sensors can detect changes in a magnetic field around them, allowing them to effectively operate without physical contact. With that, only the hinge joint on the trigger gets worn down over time, as opposed to the trigger components. While I certainly still could have used potentiometers or pressure sensitive pads (The latter I have used during an interesting Corona-Era project), HAL Effect sensors are quite cheap, and it's something new to learn about.
+
+## The Preparations - Measure twice, design once
+
+### Sensor Measurement
+
+#### VISA Adventures
+
+Due to the sheer length of the article, I've decided to move it to it's own dedicated document [here.](./Personal/Keysight-Visa.md)
+
+#### Joysticks
+
+| Name | Test | Test 2 |
+| ---- | ---- | ------ |
+| Low->Mid| [Measurement Data](/Personal/Controller%20Project/Measurements/dataLow.csv) | ![A rising edge diagram](/Personal/Controller%20Project/Measurements/Joystick-Low.png)|
+| Low->Mid, Focused on peak| [Measurement Data](/Personal/Controller%20Project/Measurements/dataLowPeak.csv) | ![A rising edge diagram](/Personal/Controller%20Project/Measurements/Joystick-LowPeak.png)|
+| Deadzone| [Measurement Data](/Personal/Controller%20Project/Measurements/dataDeadzone.csv) | ![A rising edge diagram](/Personal/Controller%20Project/Measurements/Joystick-Deadzone.png)|
+| Low->Mid| [Measurement Data](/Personal/Controller%20Project/Measurements/Joystick-High.png) | ![A rising edge diagram](/Personal/Controller%20Project/Measurements/Joystick-High.png)|
+| Low->Mid| [Measurement Data](/Personal/Controller%20Project/Measurements/data%20High%20Peak.csv) | ![A rising edge diagram](/Personal/Controller%20Project/Measurements/Joystick-HighPeak.png)|
