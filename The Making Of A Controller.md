@@ -15,8 +15,10 @@ Any project needs parts. Whether it's an LED, Integrated Circuit or a full-blown
 ### The easy bit
 
 **_ESP32 WROOM_**
+
 The ESP32 WROOM is a special development board, namely boasting integrated Wi-Fi and Bluetooth. On top of this, it has a faster clock speed, supports up to **18** analog data channels and is widely documented. While I doubt I will need all 18 channels, the faster clockspeed is rather nice to have. I'm not 100% sure if I will end up using Bluetooth, even though I've worked with it plenty in the past.
 I will be using the ESP32 DOIT Devkit, as it's cheap and easily available.
 
 **_IMU_**
+
 While an IMU in a controller makes sense for motion controls, I am quite sceptical if I'll have the time and need to implement this. As most games do not care for the orientation nor movement of a controller, it is largely redundant for this project. On top of that, because I have not studied CAD (Computer Aided Design) nor ergonomics, I highly doubt I will be creating something that can be effectively lifted off the desk, at least for now.
