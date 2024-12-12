@@ -16,4 +16,5 @@ For this semester, I'll be aiming to improve my overall skills in the embedded f
 ## Personal Project
 
 [Personal Plan](/Personal%20Plan.md) - The personal project plan for this semester.
+
 [The Making Of A Controller](./The%20Making%20Of%20A%20Controller.md) - The overall document regarding the development of my own controller.
