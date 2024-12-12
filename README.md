@@ -7,7 +7,7 @@ For this semester, I'll be aiming to improve my overall skills in the embedded f
 
 **PCB** If a PCB does not fit in the context of my [personal project](Personal%20Plan.md), it can be found [here.](PCB/)
 
-**DPS** Any assignments completed for the DSP (Digital Signal Processing) Workshops can be found [here.](DSP/)
+**DSP** Any assignments completed for the DSP (Digital Signal Processing) Workshops can be found [here.](DSP/)
 
 **Certificates** Any certificates obtained go [here.](Certificates/)
 
