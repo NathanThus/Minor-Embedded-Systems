@@ -48,3 +48,7 @@ A controller has, well, a fair few buttons. Typically, these are:
 - 2 Buttons in the sticks (Are contained)
 
 For the bumpers, I acquired the vertical buttons as mentioned above. Otherwise, regular buttons either acquired via an online retailer, or rather unceremoniously donated by the ISSD would be used. I still had to decide whether I wanted to do software debouncing or hardware debouncing, but that will be explained a bit more later on.
+
+**_Triggers_**
+
+Originally I thought the triggers on controllers were made using some fancy pressure-sensitive switches. Turns out, it's far easier. Due to the potential of continuous wear and tear, switches and potentiometers have made way for HAL effect sensors. These sensors can detect changes in a magnetic field around them, allowing them to effectively operate without physical contact. With that, only the hinge joint on the trigger gets worn down over time, as opposed to the trigger components. While I certainly still could have used potentiometers or pressure sensitive pads (The latter I have used during an interesting Corona-Era project), HAL Effect sensors are quite cheap, and it's something new to learn about.
