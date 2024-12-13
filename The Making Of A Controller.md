@@ -63,6 +63,8 @@ So, in order to get some nice data to analyse, I decided I wanted to make use of
 
 #### Joysticks
 
+The joystick consists of a few parts, though only two (technically three) are of importance to this project. These are the two potentiometers and the push-button. While the push-button is self-explanatory as to it's behaviour, the potentiometers may hold some secrets. During a few projects, as mentioned earlier, I've come across both **linear** & **logarithmic** potentiometers. One other key component is the possibility of an inherent **dead zone**. A dead zone is a section where no measurement takes place, either by mechanical or electrical means. Effectively, and action input while within said dead zone, is nullified.
+
 | Name | Test | Test 2 |
 | ---- | ---- | ------ |
 | Low->Mid| [Measurement Data](/Personal/Controller%20Project/Measurements/dataLow.csv) | ![A rising edge diagram](/Personal/Controller%20Project/Measurements/Joystick-Low.png)|
@@ -70,3 +72,9 @@ So, in order to get some nice data to analyse, I decided I wanted to make use of
 | Deadzone| [Measurement Data](/Personal/Controller%20Project/Measurements/dataDeadzone.csv) | ![A rising edge diagram](/Personal/Controller%20Project/Measurements/Joystick-Deadzone.png)|
 | Low->Mid| [Measurement Data](/Personal/Controller%20Project/Measurements/Joystick-High.png) | ![A rising edge diagram](/Personal/Controller%20Project/Measurements/Joystick-High.png)|
 | Low->Mid| [Measurement Data](/Personal/Controller%20Project/Measurements/dataHighPeak.csv) | ![A rising edge diagram](/Personal/Controller%20Project/Measurements/Joystick-HighPeak.png)|
+
+From this data, one thing is certain. The potentiometers are (fairly) linear in their function, and can be treated as such. This is nice, because it means there is next to no math required for them to function as the user expects.
+
+One thing to note with the **dead zone** measurement is the fact that there is a brief stop in the middle. I believe this is both **mechanical** and **electrical**, as it feels like there is a spring inside the mechanism to centre the joystick, but continuous movement **did** still result in a significant dead zone. While I don't doubt my results, I will need to test this later.
+
+#### HALL Effect
