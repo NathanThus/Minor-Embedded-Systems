@@ -63,10 +63,10 @@ figDataHighPeak = figure("Name","Joystick - DataHighPeak");
 figure(figDataHighPeak);
 figDataHighPeak.Position(1:2) = [figHorizontalOffset * figHorizontalIndex,...
                                 figVerticalOffset * figVerticalIndex];
-load dataDeadzone.csv
+load dataHighPeak.csv
 hold on
 title("Zoom in on peak resistance of the Joystick")
 yline(-24.5,"k-",{"Neutral"});
 xlabel("Time (us)")
-plot(dataDeadzone(:,2), "r-","LineWidth",0.1);
+plot(dataHighPeak(:,2), "r-","LineWidth",0.1);
 hold off
