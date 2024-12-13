@@ -59,7 +59,7 @@ Originally I thought the triggers on controllers were made using some fancy pres
 
 #### VISA Adventures
 
-Due to the sheer length of the article, I've decided to move it to it's own dedicated document [here.](./Personal/Keysight-Visa.md)
+So, in order to get some nice data to analyse, I decided I wanted to make use of the oscilloscopes available here. After learning about the fact you can stream data from them (I used to take pictures with my phone of the screen), I wanted to make use of that for some nice graphs. Turns out it's not as easy as I thought and it turned into a small sidequest. Due to the sheer length of the article, I've decided to move it to it's own dedicated document [here.](./Personal/Keysight-Visa.md)
 
 #### Joysticks
 
