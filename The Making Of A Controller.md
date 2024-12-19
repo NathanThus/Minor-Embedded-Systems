@@ -77,4 +77,23 @@ From this data, one thing is certain. The potentiometers are (fairly) linear in 
 
 One thing to note with the **dead zone** measurement is the fact that there is a brief stop in the middle. I believe this is both **mechanical** and **electrical**, as it feels like there is a spring inside the mechanism to centre the joystick, but continuous movement **did** still result in a significant dead zone. While I don't doubt my results, I will need to test this later.
 
-#### HALL Effect
+#### HAL Effect
+
+Some text here
+
+### Button Debouncing
+
+Button Debouncing is where you avoid a button sending multiple signals, by using either software of hardware. Let me explain.
+
+A button, contrary to popular belief, does not provide a clean signal. A button can quite literally bounce multiple times upon being pressed, causing multiple inputs. Despite buttons being considered a binary signal (as they don't charge and simply let electricity flow), this bouncing behaviour can cause erratic behaviour in the device it's attached to.
+
+Typically, there are two main ways of solving this. Software debouncing, where software is used to handle multiple bounces in a given timeframe. This can be done by having a cooldown, or continuously keeping a state of the button. This however, has some significant drawbacks. The system will need to continuously account for this, it reduces system responsiveness and adds a massive software overhead.
+
+Instead, we can take a slightly different approach, namely using a capacitor and resistor. Effectively, this smooths out the charging and discharging of the button, eliminating the problem of the bouncing button entirely. This is typically the preferred way of handling button debouncing, due to not needing to have the processor keep track of button states, which costs valuable time on the processor. Here is a circuit that shows a debounced button.
+
+![A circuit of a debounced button.](/Personal/Controller%20Project/Measurements/Button%20Debounce/DebounceFalstad.png)
+
+And, when properly implemented, you can clearly see a difference between a debounced button and a non-debounced button.
+
+![Two diagrams. The non-debounced button has multiple peaks, while the debounced button rises smoothly](/Personal/Controller%20Project/Measurements/Button%20Debounce/DebounceButtons.png)
+
