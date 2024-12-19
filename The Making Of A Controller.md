@@ -69,9 +69,9 @@ The joystick consists of a few parts, though only two (technically three) are of
 | ---- | ---- | ------ |
 | Low->Mid| [Measurement Data](/Personal/Controller%20Project/Measurements/dataLow.csv) | ![A rising edge diagram](/Personal/Controller%20Project/Measurements/Joystick-Low.png)|
 | Low->Mid, Focused on peak| [Measurement Data](/Personal/Controller%20Project/Measurements/dataLowPeak.csv) | ![A rising edge diagram](/Personal/Controller%20Project/Measurements/Joystick-LowPeak.png)|
-| Deadzone| [Measurement Data](/Personal/Controller%20Project/Measurements/dataDeadzone.csv) | ![A rising edge diagram](/Personal/Controller%20Project/Measurements/Joystick-Deadzone.png)|
-| Low->Mid| [Measurement Data](/Personal/Controller%20Project/Measurements/Joystick-High.png) | ![A rising edge diagram](/Personal/Controller%20Project/Measurements/Joystick-High.png)|
-| Low->Mid| [Measurement Data](/Personal/Controller%20Project/Measurements/dataHighPeak.csv) | ![A rising edge diagram](/Personal/Controller%20Project/Measurements/Joystick-HighPeak.png)|
+| Deadzone| [Measurement Data](/Personal/Controller%20Project/Measurements/dataDeadzone.csv) | ![A diagram showing the deadzone. It is flat in the middle.](/Personal/Controller%20Project/Measurements/Joystick-Deadzone.png)|
+| Mid->High| [Measurement Data](/Personal/Controller%20Project/Measurements/Joystick-High.png) | ![A rising edge diagram](/Personal/Controller%20Project/Measurements/Joystick-High.png)|
+| Mid->High, Focused on peak| [Measurement Data](/Personal/Controller%20Project/Measurements/dataHighPeak.csv) | ![A rising edge diagram](/Personal/Controller%20Project/Measurements/Joystick-HighPeak.png)|
 
 From this data, one thing is certain. The potentiometers are (fairly) linear in their function, and can be treated as such. This is nice, because it means there is next to no math required for them to function as the user expects.
 
