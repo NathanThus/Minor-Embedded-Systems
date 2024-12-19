@@ -47,7 +47,7 @@ A controller has, well, a fair few buttons. Typically, these are:
 - 2 Buttons for the bumpers
 - 2 Buttons in the sticks (Are contained)
 
-For the bumpers, I acquired the vertical buttons as mentioned above. Otherwise, regular buttons either acquired via an online retailer, or rather unceremoniously donated by the ISSD would be used. I still had to decide whether I wanted to do software debouncing or hardware debouncing, but that will be explained a bit more later on.
+For the bumpers, I acquired the vertical buttons as mentioned above. Otherwise, regular buttons either acquired via an online retailer, or they would be rather unceremoniously donated by the ISSD. I still had to decide whether I wanted to do software debouncing or hardware debouncing, but that will be explained a bit more later on.
 
 **_Triggers_**
 
