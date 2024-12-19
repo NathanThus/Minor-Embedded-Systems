@@ -79,7 +79,13 @@ One thing to note with the **dead zone** measurement is the fact that there is a
 
 #### HAL Effect
 
-Some text here
+With the HAL sensor In hand, I went over to the oscilloscope and did my measurements. To my surprise however, I found that the HAL sensor (A3144) didn't show the correct values. While I expected a linear increase when introduced to a strong magnetic field, I instead got a single 1ms pulse.
+
+After doing a bit of reading, it hit me. I bought the wrong sensors. There are two types of HAL effect sensors, Radiometric HAL sensors (they sense and measure the magnetic field) and switching HAL sensors, which send a pulse when introduced to a magnetic field. I bought the latter, which is decidedly **not** what I want. This could have been avoided if I did a bit more careful research, but considering the parts were quite cheap, I'll take the opportunity to learn from my mistakes.
+
+With a bit more searching, I came across the SS49E HAL effect sensor. After double and triple checking that they were the correct ones, I ordered them. Once they arrived, I dropped my other tasks and immediately tested them. As expected, these reacted to the magnetic field based on proximity to the magnet, outputting a higher voltage when it was closer. Now, despite me trying my best, I will admit there might be a significant amount of user error here. While the graph does not show that they are linear, the company behind it, Honeywell, does say they are linear. This, on top of some other online evidence, does point to user error.
+
+![The diagram of the HAL sensor. It looks logaritmic, but should be linear after accounting for user error.](/Personal/Controller%20Project/Measurements/SS49E_HAL.png)
 
 ### Button Debouncing
 
@@ -96,4 +102,3 @@ Instead, we can take a slightly different approach, namely using a capacitor and
 And, when properly implemented, you can clearly see a difference between a debounced button and a non-debounced button.
 
 ![Two diagrams. The non-debounced button has multiple peaks, while the debounced button rises smoothly](/Personal/Controller%20Project/Measurements/Button%20Debounce/DebounceButtons.png)
-
