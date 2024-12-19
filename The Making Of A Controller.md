@@ -102,3 +102,5 @@ Instead, we can take a slightly different approach, namely using a capacitor and
 And, when properly implemented, you can clearly see a difference between a debounced button and a non-debounced button.
 
 ![Two diagrams. The non-debounced button has multiple peaks, while the debounced button rises smoothly](/Personal/Controller%20Project/Measurements/Button%20Debounce/DebounceButtons.png)
+
+## The PCB - All in all, it's quite the brick wall
