@@ -104,3 +104,23 @@ And, when properly implemented, you can clearly see a difference between a debou
 ![Two diagrams. The non-debounced button has multiple peaks, while the debounced button rises smoothly](/Personal/Controller%20Project/Measurements/Button%20Debounce/DebounceButtons.png)
 
 ## The PCB - All in all, it's quite the brick wall
+
+## Sources
+
+ESP32 Series Datasheet Version 4.7. (n.d.). https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf
+
+Fh, D. (n.d.). SENSITIVE HALL-EFFECT SWITCHES FOR HIGH-TEMPERATURE OPERATION 3141 THRU 3144.
+
+Ganssle, J. G. (n.d.). A Guide to Debouncing. https://my.eng.utah.edu/~cs5780/debouncing.pdf
+
+Honeywell. (n.d.). SS39ET/SS49E/SS59ET Series. Retrieved 19 December 2024, from https://nl.mouser.com/datasheet/2/187/HWSC_S_A0012826248_1-3073340.pdf
+
+Karl-Bridge-Microsoft. (2023a, October 23). Getting Started With XInput in Windows applications—Win32 apps. https://learn.microsoft.com/en-us/windows/win32/xinput/getting-started-with-xinput
+
+Karl-Bridge-Microsoft. (2023b, October 25). Comparison of XInput and DirectInput features—Win32 apps. https://learn.microsoft.com/en-us/windows/win32/xinput/xinput-and-directinput
+
+Mitchel, C. (2015, June 24). 50 555-Circuits. 50 555-Circuits. https://www.talkingelectronics.com/projects/50%20-%20555%20Circuits/50-555Circuits.pdf
+
+Operational Amplifier Basics, Types and Uses| Article | MPS. (n.d.). Retrieved 8 November 2024, from https://www.monolithicpower.com/en/learning/resources/operational-amplifiers
+
+RKJXV122400R Product information | RKJXV Series | Potentiometer Type | Multi Control Devices | Products Search | Products & Technologies | Alps Alpine. (n.d.). Retrieved 8 November 2024, from https://tech.alpsalpine.com/e/products/detail/RKJXV122400R/
