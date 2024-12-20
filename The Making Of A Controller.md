@@ -105,6 +105,8 @@ And, when properly implemented, you can clearly see a difference between a debou
 
 ## The PCB - All in all, it's quite the brick wall
 
+![A schematic of the controller.](./Personal/Controller%20Project/Schematic.png)
+
 ## Sources
 
 ESP32 Series Datasheet Version 4.7. (n.d.). https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf
