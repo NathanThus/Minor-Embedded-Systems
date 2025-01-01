@@ -2203,6 +2203,12 @@
 		)
 	)
 	(junction
+		(at 116.84 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a804370-af06-4905-b555-7460edf65527")
+	)
+	(junction
 		(at 67.31 163.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2231,6 +2237,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "14c9cef3-4580-49c8-8a65-46e97b5ba0b7")
+	)
+	(junction
+		(at 116.84 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1f2f520a-5fd3-49e7-b7ef-03e4c50fe447")
 	)
 	(junction
 		(at 43.18 163.83)
@@ -2287,10 +2299,22 @@
 		(uuid "62b60e81-a2c7-465d-a29f-31058b4a55ed")
 	)
 	(junction
+		(at 102.87 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "63367a8e-09b5-4c31-ba9d-672318647aea")
+	)
+	(junction
 		(at 81.28 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "69f66e59-e5aa-4e39-81e6-46b7f39a0c20")
+	)
+	(junction
+		(at 102.87 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8224151f-2ef2-42df-9902-ab17dc18dedd")
 	)
 	(junction
 		(at 67.31 74.93)
@@ -2377,10 +2401,22 @@
 		(uuid "dbd77f96-0742-451e-8da3-afde8770e27a")
 	)
 	(junction
+		(at 102.87 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd6da7ba-d1bd-45ef-8ebf-a775f008f7bc")
+	)
+	(junction
 		(at 29.21 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e5785c67-9931-4fc8-9acc-b69e336a8fa8")
+	)
+	(junction
+		(at 102.87 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f0e802a3-4414-4524-9520-20bda392b0b2")
 	)
 	(no_connect
 		(at 252.73 100.33)
@@ -2389,10 +2425,6 @@
 	(no_connect
 		(at 250.19 57.15)
 		(uuid "2927ff82-ff40-4096-a3d0-56d59bf1bea0")
-	)
-	(no_connect
-		(at 248.92 26.67)
-		(uuid "4e968fa1-d7d7-49b6-8908-ff4aa85e3aee")
 	)
 	(no_connect
 		(at 222.25 90.17)
@@ -2449,10 +2481,6 @@
 	(no_connect
 		(at 252.73 102.87)
 		(uuid "af045aa5-0467-48a6-8c04-901a7a247f3f")
-	)
-	(no_connect
-		(at 250.19 59.69)
-		(uuid "bcf7c777-e3e6-48c3-84c6-187469f7190f")
 	)
 	(no_connect
 		(at 222.25 130.81)
@@ -2533,6 +2561,16 @@
 			(type default)
 		)
 		(uuid "05ca3ab6-b588-452f-acc2-0f4e3f0c73d7")
+	)
+	(wire
+		(pts
+			(xy 116.84 76.2) (xy 116.84 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05ed6f1d-dafb-4b81-b68a-f3a359c23ff1")
 	)
 	(wire
 		(pts
@@ -2626,6 +2664,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 111.76) (xy 116.84 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "139b9bfa-030e-4b73-a065-bd5ca2e52857")
+	)
+	(wire
+		(pts
 			(xy 81.28 97.79) (xy 81.28 99.06)
 		)
 		(stroke
@@ -2633,6 +2681,16 @@
 			(type default)
 		)
 		(uuid "13d2bba8-45d7-4bba-8919-7f938838d3f8")
+	)
+	(wire
+		(pts
+			(xy 102.87 77.47) (xy 116.84 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "142cfd0d-eff6-41a6-8df8-dad8e97b4b68")
 	)
 	(wire
 		(pts
@@ -2663,6 +2721,16 @@
 			(type default)
 		)
 		(uuid "1ba7de8c-c4e7-43d7-99b1-8f3c4eb42f52")
+	)
+	(wire
+		(pts
+			(xy 116.84 110.49) (xy 116.84 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bc2b355-319c-4631-afc2-4e41bf5211ee")
 	)
 	(wire
 		(pts
@@ -2713,6 +2781,16 @@
 			(type default)
 		)
 		(uuid "24431cd1-8d31-4ccf-b70b-d6b73d3fa7d5")
+	)
+	(wire
+		(pts
+			(xy 116.84 67.31) (xy 121.92 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24d47cdb-a71e-4713-90e1-d1e2734181a7")
 	)
 	(wire
 		(pts
@@ -2886,6 +2964,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 111.76) (xy 102.87 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c93c865-7982-45de-98f6-eab259f56225")
+	)
+	(wire
+		(pts
 			(xy 29.21 60.96) (xy 33.02 60.96)
 		)
 		(stroke
@@ -2956,6 +3044,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 101.6) (xy 106.68 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dd6bc4e-ae7f-43af-8cda-a43c3a687c05")
+	)
+	(wire
+		(pts
 			(xy 223.52 24.13) (xy 223.52 21.59)
 		)
 		(stroke
@@ -2986,6 +3084,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 101.6) (xy 121.92 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89bae5a4-6638-4a4c-b5d9-3869864d7c0b")
+	)
+	(wire
+		(pts
 			(xy 43.18 60.96) (xy 43.18 62.23)
 		)
 		(stroke
@@ -3003,6 +3111,26 @@
 			(type default)
 		)
 		(uuid "8f6dd76d-4c58-4fb3-bbb9-3d04fa62231e")
+	)
+	(wire
+		(pts
+			(xy 116.84 101.6) (xy 116.84 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9316aa29-6865-433d-89be-cc545c7de4ce")
+	)
+	(wire
+		(pts
+			(xy 116.84 67.31) (xy 116.84 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "934d5b78-edae-4206-a1ff-c6e455fe23f8")
 	)
 	(wire
 		(pts
@@ -3136,6 +3264,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 101.6) (xy 116.84 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b230aaba-ef2b-4af9-884b-6cc43a23acb1")
+	)
+	(wire
+		(pts
 			(xy 67.31 107.95) (xy 81.28 107.95)
 		)
 		(stroke
@@ -3176,6 +3314,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 77.47) (xy 102.87 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2ddb4f7-200d-4386-8bc9-0087675eb722")
+	)
+	(wire
+		(pts
 			(xy 214.63 21.59) (xy 223.52 21.59)
 		)
 		(stroke
@@ -3203,6 +3351,16 @@
 			(type default)
 		)
 		(uuid "d39541a0-f2fc-411b-bc2e-68d309a00cea")
+	)
+	(wire
+		(pts
+			(xy 114.3 67.31) (xy 116.84 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d61a4282-9dd1-45ea-9435-58ef6e1b5fc2")
 	)
 	(wire
 		(pts
@@ -3283,6 +3441,16 @@
 			(type default)
 		)
 		(uuid "de9cf5ae-f99b-4c44-95e3-3a2b9d465d0e")
+	)
+	(wire
+		(pts
+			(xy 102.87 67.31) (xy 106.68 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0229cb7-5624-4029-8f0c-5cba662c1ab8")
 	)
 	(wire
 		(pts
@@ -3508,6 +3676,17 @@
 		)
 		(uuid "26721a88-7750-40e0-9b66-533b6eda85e4")
 	)
+	(label "BTN_Y"
+		(at 121.92 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2a3d200a-09f5-4c63-927e-057598c3a34b")
+	)
 	(label "BTN_X"
 		(at 86.36 64.77 0)
 		(fields_autoplaced yes)
@@ -3650,6 +3829,17 @@
 			(justify left bottom)
 		)
 		(uuid "73269f32-0e17-400e-88e7-3530974daf66")
+	)
+	(label "S1_L1_SW"
+		(at 121.92 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "77347208-f630-4cfc-96b9-7a0fd0a51a0e")
 	)
 	(label "IC_RT"
 		(at 107.95 50.8 0)
@@ -3999,7 +4189,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Axial_L10.0mm_D6.0mm_P15.00mm_Horizontal"
 			(at 82.2452 73.66 0)
 			(effects
 				(font
@@ -4401,7 +4591,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 27.432 160.02 90)
 			(effects
 				(font
@@ -4469,7 +4659,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 74.93 66.548 90)
 			(effects
 				(font
@@ -4672,7 +4862,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 65.532 27.94 90)
 			(effects
 				(font
@@ -4809,7 +4999,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 27.432 91.44 90)
 			(effects
 				(font
@@ -4945,7 +5135,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_CW_GPTS203211B"
 			(at 24.13 31.75 0)
 			(effects
 				(font
@@ -5013,7 +5203,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RKJXV122400R:RKJXV122400R"
+		(property "Footprint" "RKJXV122400R"
 			(at 245.11 119.05 0)
 			(effects
 				(font
@@ -5175,7 +5365,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 74.93 99.568 90)
 			(effects
 				(font
@@ -5243,7 +5433,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 74.93 33.528 90)
 			(effects
 				(font
@@ -5512,7 +5702,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 62.23 135.89 0)
 			(effects
 				(font
@@ -5982,7 +6172,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 62.23 168.91 0)
 			(effects
 				(font
@@ -6119,7 +6309,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Axial_L10.0mm_D6.0mm_P15.00mm_Horizontal"
 			(at 44.1452 138.43 0)
 			(effects
 				(font
@@ -6189,7 +6379,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_CW_GPTS203211B"
 			(at 24.13 66.04 0)
 			(effects
 				(font
@@ -6390,7 +6580,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 36.83 165.608 90)
 			(effects
 				(font
@@ -6460,7 +6650,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 65.532 160.02 90)
 			(effects
 				(font
@@ -6497,6 +6687,140 @@
 			(project "Controller Project"
 				(path "/87c0a714-c33c-4f96-901c-fd1aa8837c52"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 110.49 101.6 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e35b0be-f23b-43f8-8eb3-fd817a2f3a45")
+		(property "Reference" "R24"
+			(at 110.49 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 110.49 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+			(at 110.49 103.378 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 110.49 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "745321e4-635a-497d-8f5f-5705e8fb7ec7")
+		)
+		(pin "2"
+			(uuid "2707ff90-2eeb-43be-98f5-c7b7947b66a3")
+		)
+		(instances
+			(project "Controller Project"
+				(path "/87c0a714-c33c-4f96-901c-fd1aa8837c52"
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 102.87 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "65a3733f-1c78-4560-a222-0ca7547034a6")
+		(property "Reference" "#PWR054"
+			(at 102.87 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 102.87 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 102.87 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e0275a06-6ccd-4bef-8483-2ab13ae4d307")
+		)
+		(instances
+			(project "Controller Project"
+				(path "/87c0a714-c33c-4f96-901c-fd1aa8837c52"
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -6787,7 +7111,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 24.13 100.33 0)
 			(effects
 				(font
@@ -7055,7 +7379,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 65.532 93.98 90)
 			(effects
 				(font
@@ -7165,6 +7489,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 102.87 106.68 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "75d3db7b-4681-46a1-a13c-e7c3172d52c7")
+		(property "Reference" "SW12"
+			(at 104.14 105.4099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 104.14 107.9499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+			(at 97.79 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.79 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 102.87 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "388ba6ab-2f22-4ea5-8fd5-070b80873090")
+		)
+		(pin "1"
+			(uuid "0f55528f-d190-408f-83f9-38c25e36f6e3")
+		)
+		(instances
+			(project "Controller Project"
+				(path "/87c0a714-c33c-4f96-901c-fd1aa8837c52"
+					(reference "SW12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 36.83 26.67 90)
 		(unit 1)
@@ -7191,7 +7585,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 36.83 28.448 90)
 			(effects
 				(font
@@ -7326,7 +7720,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 36.83 62.738 90)
 			(effects
 				(font
@@ -7394,7 +7788,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 36.83 97.028 90)
 			(effects
 				(font
@@ -7530,7 +7924,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 62.23 102.87 0)
 			(effects
 				(font
@@ -7600,7 +7994,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 27.432 22.86 90)
 			(effects
 				(font
@@ -7768,6 +8162,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 102.87 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8c3ba23f-47a5-43f2-870c-fbe858dc81b1")
+		(property "Reference" "#PWR053"
+			(at 102.87 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 102.87 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 102.87 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5dae6837-4b50-4230-812f-808176b80129")
+		)
+		(instances
+			(project "Controller Project"
+				(path "/87c0a714-c33c-4f96-901c-fd1aa8837c52"
+					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 81.28 135.89 0)
 		(unit 1)
@@ -7795,7 +8255,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Axial_L10.0mm_D6.0mm_P15.00mm_Horizontal"
 			(at 82.2452 139.7 0)
 			(effects
 				(font
@@ -7932,7 +8392,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Axial_L10.0mm_D6.0mm_P15.00mm_Horizontal"
 			(at 82.2452 172.72 0)
 			(effects
 				(font
@@ -8066,7 +8526,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 36.83 131.318 90)
 			(effects
 				(font
@@ -8136,7 +8596,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 65.532 60.96 90)
 			(effects
 				(font
@@ -8206,7 +8666,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Axial_L10.0mm_D6.0mm_P15.00mm_Horizontal"
 			(at 82.2452 40.64 0)
 			(effects
 				(font
@@ -8316,6 +8776,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 102.87 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "abeb9b6a-ee41-4030-bea0-8a2dcce6c49c")
+		(property "Reference" "#PWR052"
+			(at 102.87 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 102.87 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 102.87 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b1e1a1e6-2fd5-4018-ac20-a5bbec2a0e60")
+		)
+		(instances
+			(project "Controller Project"
+				(path "/87c0a714-c33c-4f96-901c-fd1aa8837c52"
+					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 43.18 168.91 0)
 		(unit 1)
@@ -8343,7 +8869,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Axial_L10.0mm_D6.0mm_P15.00mm_Horizontal"
 			(at 44.1452 172.72 0)
 			(effects
 				(font
@@ -8387,6 +8913,76 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 102.87 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ac2f1454-980d-4373-adad-9dc4cfb1bd5f")
+		(property "Reference" "R23"
+			(at 105.41 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 105.41 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+			(at 101.092 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 102.87 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e2d509a0-027b-41e2-85c7-2ceb1923dfe4")
+		)
+		(pin "2"
+			(uuid "d23688d9-4ded-4bd8-8485-5875a3fd3046")
+		)
+		(instances
+			(project "Controller Project"
+				(path "/87c0a714-c33c-4f96-901c-fd1aa8837c52"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 67.31 127 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8413,7 +9009,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 65.532 127 90)
 			(effects
 				(font
@@ -8450,6 +9046,73 @@
 			(project "Controller Project"
 				(path "/87c0a714-c33c-4f96-901c-fd1aa8837c52"
 					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 250.19 59.69 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b1124850-38ad-4360-93a0-aa295e9cf31c")
+		(property "Reference" "#PWR050"
+			(at 246.38 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 254 59.6899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 250.19 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 250.19 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 250.19 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fe9a8521-102b-49f6-b393-1c4c35683b01")
+		)
+		(instances
+			(project "Controller Project"
+				(path "/87c0a714-c33c-4f96-901c-fd1aa8837c52"
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -8549,7 +9212,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 62.23 36.83 0)
 			(effects
 				(font
@@ -8586,6 +9249,72 @@
 			(project "Controller Project"
 				(path "/87c0a714-c33c-4f96-901c-fd1aa8837c52"
 					(reference "SW10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 102.87 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b2aaaef8-3f9d-46d8-b74f-57dbacfce2e0")
+		(property "Reference" "#PWR051"
+			(at 102.87 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 102.87 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 102.87 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a4b05487-d7a2-4936-b60b-99cc86c76cdd")
+		)
+		(instances
+			(project "Controller Project"
+				(path "/87c0a714-c33c-4f96-901c-fd1aa8837c52"
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -8686,7 +9415,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 27.432 125.73 90)
 			(effects
 				(font
@@ -8756,7 +9485,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 24.13 134.62 0)
 			(effects
 				(font
@@ -8932,6 +9661,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 116.84 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf795966-5d19-4678-9e1e-b7c2e3d147e7")
+		(property "Reference" "C11"
+			(at 120.65 71.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10nF"
+			(at 120.65 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Axial_L10.0mm_D6.0mm_P15.00mm_Horizontal"
+			(at 117.8052 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.84 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 116.84 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "58b9d300-4c4c-4ba4-a3b6-4dfe1b138203")
+		)
+		(pin "2"
+			(uuid "39f1b652-85e4-43dc-85ee-e50b870a1241")
+		)
+		(instances
+			(project "Controller Project"
+				(path "/87c0a714-c33c-4f96-901c-fd1aa8837c52"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 29.21 168.91 90)
 		(unit 1)
@@ -8959,7 +9758,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 24.13 168.91 0)
 			(effects
 				(font
@@ -9094,7 +9893,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 74.93 165.608 90)
 			(effects
 				(font
@@ -9384,6 +10183,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 102.87 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc3f5866-0848-4711-90ab-6bbd1be89d14")
+		(property "Reference" "R21"
+			(at 105.41 62.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 105.41 64.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+			(at 101.092 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 102.87 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c57e3f94-7095-454e-8d0a-9b26fdbadeb1")
+		)
+		(pin "2"
+			(uuid "02b3eacb-c27e-427e-9d44-2cde259631b9")
+		)
+		(instances
+			(project "Controller Project"
+				(path "/87c0a714-c33c-4f96-901c-fd1aa8837c52"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "RKJXV122400R:RKJXV122400R")
 		(at 224.79 57.15 0)
 		(unit 1)
@@ -9409,7 +10278,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RKJXV122400R:RKJXV122400R"
+		(property "Footprint" "RKJXV122400R"
 			(at 246.38 152.07 0)
 			(effects
 				(font
@@ -9745,6 +10614,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 110.49 67.31 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df4b2807-22b4-4be3-ac6b-3ff756af254a")
+		(property "Reference" "R22"
+			(at 110.49 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 110.49 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+			(at 110.49 69.088 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 110.49 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1e5c5b51-8462-4297-98e0-a5b3068f7cba")
+		)
+		(pin "2"
+			(uuid "0da26cd7-c31e-4548-a297-0cf8146badd0")
+		)
+		(instances
+			(project "Controller Project"
+				(path "/87c0a714-c33c-4f96-901c-fd1aa8837c52"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 43.18 31.75 0)
 		(unit 1)
@@ -9772,7 +10709,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Axial_L10.0mm_D6.0mm_P15.00mm_Horizontal"
 			(at 44.1452 35.56 0)
 			(effects
 				(font
@@ -9947,6 +10884,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 102.87 72.39 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e7ec67ae-603a-447b-8ac5-360ec39efcea")
+		(property "Reference" "SW11"
+			(at 104.14 71.1199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 104.14 73.6599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+			(at 97.79 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.79 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 102.87 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b3051b15-9932-4556-94b4-95aa0c1a8976")
+		)
+		(pin "1"
+			(uuid "c7d598f4-0fe2-4a24-bd40-48b5ad84c9c5")
+		)
+		(instances
+			(project "Controller Project"
+				(path "/87c0a714-c33c-4f96-901c-fd1aa8837c52"
+					(reference "SW11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 67.31 110.49 0)
 		(unit 1)
@@ -10040,7 +11047,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 62.23 69.85 0)
 			(effects
 				(font
@@ -10175,7 +11182,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 74.93 132.588 90)
 			(effects
 				(font
@@ -10218,6 +11225,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 116.84 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f26b02fd-c24b-41d6-8b26-32b316531104")
+		(property "Reference" "C12"
+			(at 120.65 105.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10nF"
+			(at 120.65 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Axial_L10.0mm_D6.0mm_P15.00mm_Horizontal"
+			(at 117.8052 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.84 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 116.84 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "abefc389-a931-4daa-b651-8149357efe34")
+		)
+		(pin "2"
+			(uuid "db1fb1b5-2497-47a9-91a5-24933eba5ee1")
+		)
+		(instances
+			(project "Controller Project"
+				(path "/87c0a714-c33c-4f96-901c-fd1aa8837c52"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 29.21 57.15 0)
 		(unit 1)
@@ -10245,7 +11322,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 27.432 57.15 90)
 			(effects
 				(font
@@ -10315,7 +11392,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Axial_L10.0mm_D6.0mm_P15.00mm_Horizontal"
 			(at 82.2452 106.68 0)
 			(effects
 				(font
@@ -10425,6 +11502,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 248.92 26.67 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f6f56c57-b34e-43da-8fc0-69fcdc20111c")
+		(property "Reference" "#PWR049"
+			(at 245.11 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 252.73 26.6699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 248.92 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 248.92 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2d1ab4bc-ff31-4680-a083-bb925bd4e5a4")
+		)
+		(instances
+			(project "Controller Project"
+				(path "/87c0a714-c33c-4f96-901c-fd1aa8837c52"
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 248.92 31.75 90)
 		(unit 1)
@@ -10519,7 +11663,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Axial_L10.0mm_D6.0mm_P15.00mm_Horizontal"
 			(at 44.1452 104.14 0)
 			(effects
 				(font
@@ -10589,7 +11733,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Axial_L10.0mm_D6.0mm_P15.00mm_Horizontal"
 			(at 44.1452 69.85 0)
 			(effects
 				(font
