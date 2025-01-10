@@ -67,11 +67,11 @@ The joystick consists of a few parts, though only two (technically three) are of
 
 | Name | Test | Test 2 |
 | ---- | ---- | ------ |
-| Low->Mid| [Measurement Data](/Personal/Controller%20Project/Measurements/dataLow.csv) | ![A rising edge diagram](/Personal/Controller%20Project/Measurements/Joystick-Low.png)|
-| Low->Mid, Focused on peak| [Measurement Data](/Personal/Controller%20Project/Measurements/dataLowPeak.csv) | ![A rising edge diagram](/Personal/Controller%20Project/Measurements/Joystick-LowPeak.png)|
-| Deadzone| [Measurement Data](/Personal/Controller%20Project/Measurements/dataDeadzone.csv) | ![A diagram showing the deadzone. It is flat in the middle.](/Personal/Controller%20Project/Measurements/Joystick-Deadzone.png)|
-| Mid->High| [Measurement Data](/Personal/Controller%20Project/Measurements/Joystick-High.png) | ![A rising edge diagram](/Personal/Controller%20Project/Measurements/Joystick-High.png)|
-| Mid->High, Focused on peak| [Measurement Data](/Personal/Controller%20Project/Measurements/dataHighPeak.csv) | ![A rising edge diagram](/Personal/Controller%20Project/Measurements/Joystick-HighPeak.png)|
+| Low->Mid| [Measurement Data](./Personal/Controller%20Project/Measurements/dataLow.csv) | ![A rising edge diagram](./Personal/Controller%20Project/Measurements/Joystick-Low.png)|
+| Low->Mid, Focused on peak| [Measurement Data](./Personal/Controller%20Project/Measurements/dataLowPeak.csv) | ![A rising edge diagram](./Personal/Controller%20Project/Measurements/Joystick-LowPeak.png)|
+| Deadzone| [Measurement Data](./Personal/Controller%20Project/Measurements/dataDeadzone.csv) | ![A diagram showing the deadzone. It is flat in the middle.](./Personal/Controller%20Project/Measurements/Joystick-Deadzone.png)|
+| Mid->High| [Measurement Data](./Personal/Controller%20Project/Measurements/Joystick-High.png) | ![A rising edge diagram](./Personal/Controller%20Project/Measurements/Joystick-High.png)|
+| Mid->High, Focused on peak| [Measurement Data](./Personal/Controller%20Project/Measurements/dataHighPeak.csv) | ![A rising edge diagram].(/Personal/Controller%20Project/Measurements/Joystick-HighPeak.png)|
 
 From this data, one thing is certain. The potentiometers are (fairly) linear in their function, and can be treated as such. This is nice, because it means there is next to no math required for them to function as the user expects.
 
@@ -85,7 +85,7 @@ After doing a bit of reading, it hit me. I bought the wrong sensors. There are t
 
 With a bit more searching, I came across the SS49E HAL effect sensor. After double and triple checking that they were the correct ones, I ordered them. Once they arrived, I dropped my other tasks and immediately tested them. As expected, these reacted to the magnetic field based on proximity to the magnet, outputting a higher voltage when it was closer. Now, despite me trying my best, I will admit there might be a significant amount of user error here. While the graph does not show that they are linear, the company behind it, Honeywell, does say they are linear. This, on top of some other online evidence, does point to user error.
 
-![The diagram of the HAL sensor. It looks logaritmic, but should be linear after accounting for user error.](/Personal/Controller%20Project/Measurements/SS49E_HAL.png)
+![The diagram of the HAL sensor. It looks logaritmic, but should be linear after accounting for user error.](./Personal/Controller%20Project/Measurements/SS49E_HAL.png)
 
 ### Button Debouncing
 
@@ -97,13 +97,21 @@ Typically, there are two main ways of solving this. Software debouncing, where s
 
 Instead, we can take a slightly different approach, namely using a capacitor and resistor. Effectively, this smooths out the charging and discharging of the button, eliminating the problem of the bouncing button entirely. This is typically the preferred way of handling button debouncing, due to not needing to have the processor keep track of button states, which costs valuable time on the processor. Here is a circuit that shows a debounced button.
 
-![A circuit of a debounced button.](/Personal/Controller%20Project/Measurements/Button%20Debounce/DebounceFalstad.png)
+![A circuit of a debounced button.](./Personal/Controller%20Project/Measurements/Button%20Debounce/DebounceFalstad.png)
 
 And, when properly implemented, you can clearly see a difference between a debounced button and a non-debounced button.
 
-![Two diagrams. The non-debounced button has multiple peaks, while the debounced button rises smoothly](/Personal/Controller%20Project/Measurements/Button%20Debounce/DebounceButtons.png)
+![Two diagrams. The non-debounced button has multiple peaks, while the debounced button rises smoothly](./Personal/Controller%20Project/Measurements/Button%20Debounce/DebounceButtons.png)
 
 ## The PCB - All in all, it's quite the brick wall
+
+![The debounced button schematic, now in KiCad](./Personal/Controller%20Project/Measurements/Button%20Debounce/ButtonSchematicKiCad.png)
+
+In order to avoid the absolute spaghetti-tangled mess that is my old schematic drawings, I decided to use the `Label` feature in KiCad. This effectively allows me to connect a set of inputs/outputs, without needing direct lines drawn from one part to the other.
+
+After a bit of googling, I found the footprint for the `ESP32 DoIt Devkit-C` which I use [here](https://gitlab.com/VictorLamoine/kicad.git).
+
+In  order to comply with the license, This product includes software developed by Victor Lamoine. Thank you for making my life easier and not having me meticulously measure the pinout!
 
 ![A schematic of the controller.](./Personal/Controller%20Project/Schematic.png)
 
