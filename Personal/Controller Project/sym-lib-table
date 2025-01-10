@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "RKJXV122400R")(type "KiCad")(uri "C:/Users/Nathan/Downloads/RKJXV122400R/KiCad/RKJXV122400R.kicad_sym")(options "")(descr ""))
   (lib (name "SS49E")(type "KiCad")(uri "D:/ControllerProject/LIB_SS49E/SS49E/SS49E/SS49E.kicad_sym")(options "")(descr ""))
+  (lib (name "ESP32")(type "KiCad")(uri "C:/Users/Nathan/Documents/KiCad/Additional Components/esp32devkit/ESP32.kicad_sym")(options "")(descr ""))
 )
