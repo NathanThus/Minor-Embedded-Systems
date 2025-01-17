@@ -2994,7 +2994,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 50.8) (xy 116.84 50.8)
+			(xy 105.41 104.14) (xy 114.3 104.14)
 		)
 		(stroke
 			(width 0)
@@ -3004,7 +3004,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 38.1) (xy 116.84 38.1)
+			(xy 105.41 91.44) (xy 114.3 91.44)
 		)
 		(stroke
 			(width 0)
@@ -3642,7 +3642,7 @@
 		(uuid "72221283-08d9-49e1-8075-3c95803cf084")
 	)
 	(label "IC_RT"
-		(at 107.95 50.8 0)
+		(at 105.41 104.14 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3818,7 +3818,7 @@
 		(uuid "ec2ae22c-6a11-4f44-aaed-2c5947296665")
 	)
 	(label "IC_LT"
-		(at 107.95 38.1 0)
+		(at 105.41 91.44 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4502,7 +4502,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 116.84 35.56 270)
+		(at 114.3 88.9 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4511,7 +4511,7 @@
 		(fields_autoplaced yes)
 		(uuid "1391fccf-be43-4986-a069-1124a19cf06a")
 		(property "Reference" "#PWR045"
-			(at 110.49 35.56 0)
+			(at 107.95 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4520,7 +4520,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 113.03 35.5599 90)
+			(at 110.49 88.8999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4529,7 +4529,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 35.56 0)
+			(at 114.3 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4538,7 +4538,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 35.56 0)
+			(at 114.3 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4547,7 +4547,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 116.84 35.56 0)
+			(at 114.3 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4639,7 +4639,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 116.84 33.02 90)
+		(at 114.3 86.36 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4648,7 +4648,7 @@
 		(fields_autoplaced yes)
 		(uuid "20391b21-2a7c-4b9e-bdec-f54769f309b8")
 		(property "Reference" "#PWR047"
-			(at 120.65 33.02 0)
+			(at 118.11 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4657,7 +4657,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 113.03 33.0199 90)
+			(at 110.49 86.3599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4666,7 +4666,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 33.02 0)
+			(at 114.3 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4675,7 +4675,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 33.02 0)
+			(at 114.3 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4684,7 +4684,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 116.84 33.02 0)
+			(at 114.3 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6107,7 +6107,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 116.84 48.26 270)
+		(at 114.3 101.6 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6116,7 +6116,7 @@
 		(fields_autoplaced yes)
 		(uuid "57f26f43-abbf-4599-b86b-bac4ef42264e")
 		(property "Reference" "#PWR046"
-			(at 110.49 48.26 0)
+			(at 107.95 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6125,7 +6125,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 113.03 48.2599 90)
+			(at 110.49 101.5999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6134,7 +6134,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 48.26 0)
+			(at 114.3 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6143,7 +6143,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 48.26 0)
+			(at 114.3 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6152,7 +6152,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 116.84 48.26 0)
+			(at 114.3 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6444,7 +6444,7 @@
 	)
 	(symbol
 		(lib_id "SS49E:SS49E")
-		(at 116.84 33.02 0)
+		(at 114.3 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6453,7 +6453,7 @@
 		(fields_autoplaced yes)
 		(uuid "6a56e56f-0e52-4697-afa0-1152721c71a7")
 		(property "Reference" "IC1"
-			(at 133.35 34.2899 0)
+			(at 130.81 87.6299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6462,7 +6462,7 @@
 			)
 		)
 		(property "Value" "SS49E"
-			(at 133.35 36.8299 0)
+			(at 130.81 90.1699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6471,7 +6471,7 @@
 			)
 		)
 		(property "Footprint" "SS49E:SS49E"
-			(at 133.35 127.94 0)
+			(at 130.81 181.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6481,7 +6481,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-1/sf-00023632.pdf"
-			(at 133.35 227.94 0)
+			(at 130.81 281.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6491,7 +6491,7 @@
 			)
 		)
 		(property "Description" "Honeywell Ratiometric Hall Effect Sensor switching current 1.5 mA supply voltage 2.7  6.5 V dc"
-			(at 118.872 23.876 0)
+			(at 116.332 77.216 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6500,7 +6500,7 @@
 			)
 		)
 		(property "Height" "1.6"
-			(at 133.35 427.94 0)
+			(at 130.81 481.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6510,7 +6510,7 @@
 			)
 		)
 		(property "Mouser Part Number" "785-SS49E"
-			(at 133.35 527.94 0)
+			(at 130.81 581.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6520,7 +6520,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Honeywell/SS49E?qs=%2Ffq2y7sSKcJBD3o5K2Vcgg%3D%3D"
-			(at 133.35 627.94 0)
+			(at 130.81 681.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6530,7 +6530,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Honeywell"
-			(at 133.35 727.94 0)
+			(at 130.81 781.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6540,7 +6540,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "SS49E"
-			(at 133.35 827.94 0)
+			(at 130.81 881.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7517,7 +7517,7 @@
 	)
 	(symbol
 		(lib_id "SS49E:SS49E")
-		(at 116.84 45.72 0)
+		(at 114.3 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7526,7 +7526,7 @@
 		(fields_autoplaced yes)
 		(uuid "8c1735cd-94e0-43e5-8503-682f21d758fc")
 		(property "Reference" "IC2"
-			(at 133.35 46.9899 0)
+			(at 130.81 100.3299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7535,7 +7535,7 @@
 			)
 		)
 		(property "Value" "SS49E"
-			(at 133.35 49.5299 0)
+			(at 130.81 102.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7544,7 +7544,7 @@
 			)
 		)
 		(property "Footprint" "SS49E:SS49E"
-			(at 133.35 140.64 0)
+			(at 130.81 193.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7554,7 +7554,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/SFDatasheet-1/sf-00023632.pdf"
-			(at 133.35 240.64 0)
+			(at 130.81 293.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7564,7 +7564,7 @@
 			)
 		)
 		(property "Description" "Honeywell Ratiometric Hall Effect Sensor switching current 1.5 mA supply voltage 2.7  6.5 V dc"
-			(at 118.872 36.576 0)
+			(at 116.332 89.916 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7573,7 +7573,7 @@
 			)
 		)
 		(property "Height" "1.6"
-			(at 133.35 440.64 0)
+			(at 130.81 493.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7583,7 +7583,7 @@
 			)
 		)
 		(property "Mouser Part Number" "785-SS49E"
-			(at 133.35 540.64 0)
+			(at 130.81 593.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7593,7 +7593,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Honeywell/SS49E?qs=%2Ffq2y7sSKcJBD3o5K2Vcgg%3D%3D"
-			(at 133.35 640.64 0)
+			(at 130.81 693.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7603,7 +7603,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Honeywell"
-			(at 133.35 740.64 0)
+			(at 130.81 793.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7613,7 +7613,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "SS49E"
-			(at 133.35 840.64 0)
+			(at 130.81 893.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8808,7 +8808,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 116.84 45.72 90)
+		(at 114.3 99.06 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8817,7 +8817,7 @@
 		(fields_autoplaced yes)
 		(uuid "c7831ef1-9b9c-4be5-bb19-b9abbd7d218e")
 		(property "Reference" "#PWR048"
-			(at 120.65 45.72 0)
+			(at 118.11 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8826,7 +8826,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 113.03 45.7199 90)
+			(at 110.49 99.0599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8835,7 +8835,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 45.72 0)
+			(at 114.3 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8844,7 +8844,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 45.72 0)
+			(at 114.3 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8853,7 +8853,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 116.84 45.72 0)
+			(at 114.3 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
