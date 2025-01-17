@@ -115,6 +115,10 @@ In  order to comply with the license, This product includes software developed b
 
 ![A schematic of the controller.](./Personal/Controller%20Project/Schematic.png)
 
+Converting this schematic by tracing the wires correctly, resulted in the following PCB:
+
+![A PCB Schematic of the controller. Logo, name and ESP32 are present on the board.](./Personal/Controller%20Project/Controller%20Project.png)
+
 ## Sources
 
 ESP32 Series Datasheet Version 4.7. (n.d.). https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf
